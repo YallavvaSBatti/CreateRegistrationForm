@@ -1,0 +1,108 @@
+
+.registration-form {
+    display: none;
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #fff;
+  }
+  
+  .registration-form form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .registration-form label {
+    margin-bottom: 10px;
+  }
+  
+  .registration-form input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+  }
+  
+  .registration-form button {
+    /* background-color: #4caf50; */
+    /* color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer; */
+    transform: translateX(200%);
+  }
+  
+  /* .registration-form button:hover {
+    background-color: #45a049;
+  } */
+/* .button {
+    margin-bottom: 20px;
+  } */
+  
+  /* .button {
+    margin-bottom: 20px;
+    text-align: left;
+  } */
+  
+  .button button {
+    /* background-color:green; */
+    /* color: #fff; */
+    /* padding: 10px 15px; */
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    /* cursor: pointer; */
+    /* transform: translateX(750%); */
+    /* transform: translateY(20%); */
+  }
+  
+  .patient-table {
+    margin-top: 20px;
+  }
+  
+  .patient-table table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+   .patient-table td {
+    border: 1px solid #8f8d8d;
+    padding: 4px;
+    text-align: left;
+  }
+
+  .patient-table tbody tr:hover {
+    background-color: #c0bebe;
+  }
+
+  .sticky-header th {
+    background-color: #060707;
+    text-align: left;
+    color: #fff;
+    padding: 2px;
+    font-size: 13px;
+  }
+  
+  .patient-table tr:nth-child(even) {
+    background-color: rgb(245, 245, 243);
+  
+  }
+  
+  .patient-table td button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin-right: 5px;
+  }
+  
+  .patient-table td button i {
+    font-size: 18px;
+  }
+  
+  .patient-table td button + button {
+    margin-left: 5px;
+  }
+  
